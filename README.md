@@ -48,6 +48,7 @@ This bar graph shows a rough positive correlation between proximity of convenien
 ![image](https://user-images.githubusercontent.com/107661416/187835423-4611d500-e381-410d-8b04-1caee37ee07b.png)
 
 This box plot is useful to visualize which months have what values of homes sold.  While there aren't any particularly strong patterns, it is useful to be able to see slight variations.
+
 ![image](https://user-images.githubusercontent.com/107661416/187835447-ac6d26f7-25f0-416d-baf3-9133cf7e48b4.png)
 
 

@@ -20,13 +20,15 @@ Root of Mean Squared Error - This is the best metric to use, seeing as the numbe
 
 R2 - R2 is the measure of how much of any data point can be explained by our model?  Roughly 3/4 of any data point can be explained, and the remaining 1/4 is unpredictable, or from patterns and variables not available.
 
-The Bagging Regressor was marginally better than all other tuned models, and using PCA on the bagging regressor slightly reduced accuracy and increased variance.  PCA is a process that removes certain variables from the calculation to speed up processing and reduce noise.  In this case, it reduced how much our prediction varied from the actual outcome it was tested against.
+The Bagging Regressor was marginally better than all other tuned models, and using PCA on the bagging regressor slightly reduced accuracy and increased variance.  PCA is a process that removes certain variables from the calculation to speed up processing and reduce noise.  The speed was not necessary, and as a result, I went with a base bagging regressor.  Engineering the date feature increased readability but decreased the model's strength similarly.
 
-Test Scores: 
-MAE: 4.24 
-MSE: 41.26 
-RMSE: 6.42 
-R2: 0.74
+
+Testing
+scores: 
+MAE: 4.10 
+MSE: 38.38 
+RMSE: 6.20 
+R2: 0.76
 
 ### Model Uses
 
